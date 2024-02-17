@@ -1,0 +1,100 @@
+(ExpressProject "Execution"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\execution.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\0_WORK\59_XBOAT\EXECUTION-MODULE\ORCAD\V1\EXECUTION.DRC")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "EXECUTION.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    ( "TRUE")
+    (LAYOUT_Units "0"))
+  (Folder "Outputs"
+    (File ".\execution.drc"
+      (Type "Report"))
+    (File ".\execution.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (DIOT_SS3_
+      (FullPartName "DIOT_SS3_.Normal")
+      (LibraryName "D:\00 TV LK\00 CAPTURE SMD.OLB")
+      (DeviceIndex "0"))
+    ("DB USB_TYPE_C12"
+      (FullPartName "DB USB_TYPE_C12.Normal")
+      (LibraryName "D:\00 TV LK\00 CAPTURE SMD.OLB")
+      (DeviceIndex "0"))
+    ("DIOT 3A/400"
+      (FullPartName "DIOT 3A/400.Normal")
+      (LibraryName "D:\00 TV LK\00 CAPTURE.OLB")
+      (DeviceIndex "0"))
+    ("BARRIE 03"
+      (FullPartName "BARRIE 03.Normal")
+      (LibraryName "D:\00 TV LK\00 CAPTURE.OLB")
+      (DeviceIndex "0"))
+    ("OPTO PC817"
+      (FullPartName "OPTO PC817.Normal")
+      (LibraryName "D:\00 TV LK\00 CAPTURE.OLB")
+      (DeviceIndex "0"))
+    ("BARRIE 02"
+      (FullPartName "BARRIE 02.Normal")
+      (LibraryName "D:\00 TV LK\00 CAPTURE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (AMS/LD/LM_1117
+      (FullPartName "AMS/LD/LM_1117.Normal")
+      (LibraryName "D:\00 TV LK\00 CAPTURE SMD.OLB")
+      (DeviceIndex "0"))
+    (md_DC_DC_5/12V_30W
+      (FullPartName "md_DC_DC_5/12V_30W.Normal")
+      (LibraryName "D:\00 TV LK\00 MODUN.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\execution.dsn")
+      (Path "Design Resources" ".\execution.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\execution.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 367"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -27 52 1146 52 450")
+        (Scroll "224 90")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\0_WORK\59_XBOAT\EXECUTION-MODULE\ORCAD\V1\EXECUTION.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
